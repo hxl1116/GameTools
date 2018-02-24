@@ -1,0 +1,147 @@
+/* Game Card Assets */
+.image {
+    -fx-opacity: 60%;
+}
+
+GameCard:hover .image {
+    -fx-opacity: 100%;
+}
+
+.gc-label {
+    -fx-text-fill: black;
+    -fx-font: 18pt bold;
+    -fx-alignment: center;
+    -fx-pref-width: 333px;
+    -fx-pref-height: 75;
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+    -fx-background-color: white;
+}
+
+.gc-button {
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font: 12pt bold;
+    -fx-pref-width: 999px;
+    -fx-pref-height: 30px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(0, 0, 0, .6);
+}
+
+gc-button:hover {
+    -fx-alignment: center;
+    -fx-text-fill: black;
+    -fx-font: 12pt bold;
+    -fx-pref-width: 999px;
+    -fx-pref-height: 30px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(225, 225, 225, .6);
+}
+
+/* Button Assets */
+.prgm-button {
+    -fx-text-fill: white;
+    -fx-font: 12pt bold;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(0, 0, 0, .6);
+}
+
+.prgm-button:hover {
+    -fx-text-fill: black;
+    -fx-font: 12pt bold;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(225, 225, 225, .6);
+}
+
+/* Label Assets */
+.display-label {
+    -fx-text-fill: white;
+    -fx-font: 12pt bold;
+    -fx-alignment: center;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(0, 0, 0, .4);
+}
+
+/* Selection Button Assets */
+.selection-button-small {
+    -fx-text-fill: white;
+    -fx-font: 10pt bold;
+    -fx-pref-width: 42px;
+    -fx-pref-height: 50px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(0, 0, 0, .6);
+}
+
+.selection-button-small:hover {
+    -fx-text-fill: black;
+    -fx-font: 10pt bold;
+    -fx-pref-width: 42px;
+    -fx-pref-height: 50px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(225, 225, 225, .6);
+}
+
+.selection-button-medium {
+    -fx-text-fill: white;
+    -fx-font: 12pt bold;
+    -fx-pref-width: 95px;
+    -fx-pref-height: 50px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(0, 0, 0, .6);
+}
+
+.selection-button-medium:hover {
+    -fx-text-fill: black;
+    -fx-font: 12pt bold;
+    -fx-pref-width: 95px;
+    -fx-pref-height: 50px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(225, 225, 225, .6);
+}
+
+.selection-button-large {
+    -fx-text-fill: white;
+    -fx-font: 12pt bold;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(0, 0, 0, .6);
+}
+
+.selection-button-large:hover {
+    -fx-text-fill: black;
+    -fx-font: 12pt bold;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(225, 225, 225, .6);
+}
+
+/* Text Field Assets */
+.textfield {
+    -fx-text-fill: white;
+    -fx-font: 12pt bold;
+    -fx-alignment: center;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-color: rgba(0, 0, 0, .6);
+}
+
+.table-view {
+    -fx-text-fill: white;
+    -fx-font: 12pt bold;
+    -fx-alignment: center;
+    -fx-background-color: rgba(0, 0, 0, .6);
+}
+
+.table-column {
+    -fx-text-fill: white;
+    -fx-background-color: black;
+}
